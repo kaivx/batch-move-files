@@ -13,7 +13,7 @@ set /p UserPath=Where do you want to move the files to? (Please specify the full
 
 if not exist %UserPath% md %UserPath%
 
-FORFILES /m *%FileName%* /c "cmd /c move @file '%UserPath%'" && (
+FORFILES /m *%FileName%* /c "cmd /c move @file %UserPath%" && (
   echo Done!
 ) || (
   echo Oops. Something went wrong. Please try again.
