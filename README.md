@@ -1,4 +1,6 @@
 # batch-move-files
+[![Static Badge](https://img.shields.io/badge/Download-brightgreen)](https://github.com/kaivx/batch-move-files/blob/main/batch-file-mover.bat)
+
 This .bat file may be used to move several files inside one folder to another without having to select every single file one by one.
 
 I wrote this for personal use, but decided to share it as I couldn't find something similar on the web.
